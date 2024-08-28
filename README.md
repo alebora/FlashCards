@@ -45,6 +45,7 @@ To run the Flashcard Quiz App, you need to have Python installed on your system.
 `flashcards.json`: This file stores the flashcards in JSON format. The app reads from and writes to this file to persist flashcards between sessions.
 
 Example content of `flashcards.json`:
+
     ```bash
     [
         {
