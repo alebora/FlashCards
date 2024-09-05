@@ -1,6 +1,6 @@
 import json
 
-class FlashcardApp:  
+class FlashcardApp:     
     def __init__(self):
         self.flashcards = []
         self.load_flashcards()
