@@ -5,7 +5,7 @@ class FlashcardApp:
         self.flashcards = []
         self.load_flashcards()
 
-    def load_flashcards(self):
+    def load_flashcards(self):   
         try:
             with open('flashcards.json', 'r') as file:
                 self.flashcards = json.load(file)
