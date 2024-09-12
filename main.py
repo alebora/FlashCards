@@ -13,7 +13,7 @@ class FlashcardApp:
             self.flashcards = []  
 
     def save_flashcards(self):
-        with open('flashcards.json', 'w') as file:
+        with open('flashcards.json', 'w') as file:  
             json.dump(self.flashcards, file)
 
     def add_flashcard(self):
