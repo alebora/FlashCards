@@ -10,7 +10,7 @@ class FlashcardApp:
             with open('flashcards.json', 'r') as file:     
                 self.flashcards = json.load(file)
         except FileNotFoundError:
-            self.flashcards = []  
+            self.flashcards = []    
 
     def save_flashcards(self):
         with open('flashcards.json', 'w') as file:        
